@@ -1,0 +1,15 @@
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Interface Segregation Principle\bin\Debug\net6.0\Interface Segregation Principle.exe
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Interface Segregation Principle\bin\Debug\net6.0\Interface Segregation Principle.deps.json
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Interface Segregation Principle\bin\Debug\net6.0\Interface Segregation Principle.runtimeconfig.json
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Interface Segregation Principle\bin\Debug\net6.0\Interface Segregation Principle.dll
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Interface Segregation Principle\bin\Debug\net6.0\Interface Segregation Principle.pdb
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Interface Segregation Principle\obj\Debug\net6.0\Interface Segregation Principle.csproj.AssemblyReference.cache
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Interface Segregation Principle\obj\Debug\net6.0\Interface Segregation Principle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Interface Segregation Principle\obj\Debug\net6.0\Interface Segregation Principle.AssemblyInfoInputs.cache
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Interface Segregation Principle\obj\Debug\net6.0\Interface Segregation Principle.AssemblyInfo.cs
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Interface Segregation Principle\obj\Debug\net6.0\Interface Segregation Principle.csproj.CoreCompileInputs.cache
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Interface Segregation Principle\obj\Debug\net6.0\Interface Segregation Principle.dll
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Interface Segregation Principle\obj\Debug\net6.0\refint\Interface Segregation Principle.dll
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Interface Segregation Principle\obj\Debug\net6.0\Interface Segregation Principle.pdb
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Interface Segregation Principle\obj\Debug\net6.0\Interface Segregation Principle.genruntimeconfig.cache
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Interface Segregation Principle\obj\Debug\net6.0\ref\Interface Segregation Principle.dll

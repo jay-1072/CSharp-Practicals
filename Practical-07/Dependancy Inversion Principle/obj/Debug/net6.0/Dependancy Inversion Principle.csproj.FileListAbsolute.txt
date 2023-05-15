@@ -1,0 +1,15 @@
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Dependancy Inversion Principle\bin\Debug\net6.0\Dependancy Inversion Principle.exe
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Dependancy Inversion Principle\bin\Debug\net6.0\Dependancy Inversion Principle.deps.json
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Dependancy Inversion Principle\bin\Debug\net6.0\Dependancy Inversion Principle.runtimeconfig.json
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Dependancy Inversion Principle\bin\Debug\net6.0\Dependancy Inversion Principle.dll
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Dependancy Inversion Principle\bin\Debug\net6.0\Dependancy Inversion Principle.pdb
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Dependancy Inversion Principle\obj\Debug\net6.0\Dependancy Inversion Principle.csproj.AssemblyReference.cache
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Dependancy Inversion Principle\obj\Debug\net6.0\Dependancy Inversion Principle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Dependancy Inversion Principle\obj\Debug\net6.0\Dependancy Inversion Principle.AssemblyInfoInputs.cache
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Dependancy Inversion Principle\obj\Debug\net6.0\Dependancy Inversion Principle.AssemblyInfo.cs
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Dependancy Inversion Principle\obj\Debug\net6.0\Dependancy Inversion Principle.csproj.CoreCompileInputs.cache
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Dependancy Inversion Principle\obj\Debug\net6.0\Dependancy Inversion Principle.dll
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Dependancy Inversion Principle\obj\Debug\net6.0\refint\Dependancy Inversion Principle.dll
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Dependancy Inversion Principle\obj\Debug\net6.0\Dependancy Inversion Principle.pdb
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Dependancy Inversion Principle\obj\Debug\net6.0\Dependancy Inversion Principle.genruntimeconfig.cache
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Dependancy Inversion Principle\obj\Debug\net6.0\ref\Dependancy Inversion Principle.dll

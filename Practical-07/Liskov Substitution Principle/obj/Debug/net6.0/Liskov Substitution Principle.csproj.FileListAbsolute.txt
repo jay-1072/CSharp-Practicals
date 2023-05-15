@@ -1,0 +1,15 @@
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Liskov Substitution Principle\bin\Debug\net6.0\Liskov Substitution Principle.exe
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Liskov Substitution Principle\bin\Debug\net6.0\Liskov Substitution Principle.deps.json
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Liskov Substitution Principle\bin\Debug\net6.0\Liskov Substitution Principle.runtimeconfig.json
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Liskov Substitution Principle\bin\Debug\net6.0\Liskov Substitution Principle.dll
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Liskov Substitution Principle\bin\Debug\net6.0\Liskov Substitution Principle.pdb
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Liskov Substitution Principle\obj\Debug\net6.0\Liskov Substitution Principle.csproj.AssemblyReference.cache
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Liskov Substitution Principle\obj\Debug\net6.0\Liskov Substitution Principle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Liskov Substitution Principle\obj\Debug\net6.0\Liskov Substitution Principle.AssemblyInfoInputs.cache
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Liskov Substitution Principle\obj\Debug\net6.0\Liskov Substitution Principle.AssemblyInfo.cs
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Liskov Substitution Principle\obj\Debug\net6.0\Liskov Substitution Principle.csproj.CoreCompileInputs.cache
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Liskov Substitution Principle\obj\Debug\net6.0\Liskov Substitution Principle.dll
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Liskov Substitution Principle\obj\Debug\net6.0\refint\Liskov Substitution Principle.dll
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Liskov Substitution Principle\obj\Debug\net6.0\Liskov Substitution Principle.pdb
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Liskov Substitution Principle\obj\Debug\net6.0\Liskov Substitution Principle.genruntimeconfig.cache
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Liskov Substitution Principle\obj\Debug\net6.0\ref\Liskov Substitution Principle.dll

@@ -1,0 +1,15 @@
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Open Closed Principle\bin\Debug\net6.0\Open Closed Principle.exe
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Open Closed Principle\bin\Debug\net6.0\Open Closed Principle.deps.json
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Open Closed Principle\bin\Debug\net6.0\Open Closed Principle.runtimeconfig.json
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Open Closed Principle\bin\Debug\net6.0\Open Closed Principle.dll
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Open Closed Principle\bin\Debug\net6.0\Open Closed Principle.pdb
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Open Closed Principle\obj\Debug\net6.0\Open Closed Principle.csproj.AssemblyReference.cache
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Open Closed Principle\obj\Debug\net6.0\Open Closed Principle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Open Closed Principle\obj\Debug\net6.0\Open Closed Principle.AssemblyInfoInputs.cache
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Open Closed Principle\obj\Debug\net6.0\Open Closed Principle.AssemblyInfo.cs
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Open Closed Principle\obj\Debug\net6.0\Open Closed Principle.csproj.CoreCompileInputs.cache
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Open Closed Principle\obj\Debug\net6.0\Open Closed Principle.dll
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Open Closed Principle\obj\Debug\net6.0\refint\Open Closed Principle.dll
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Open Closed Principle\obj\Debug\net6.0\Open Closed Principle.pdb
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Open Closed Principle\obj\Debug\net6.0\Open Closed Principle.genruntimeconfig.cache
+C:\Users\jay\Documents\C#_Practicals\Practical-07\Open Closed Principle\obj\Debug\net6.0\ref\Open Closed Principle.dll
