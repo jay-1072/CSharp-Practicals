@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "practical-3", "practical-3.csproj", "{42EEB1F5-4CB2-4BB5-9C52-F8BE8B43E936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "..\Abstraction\Polymorphism.csproj", "{D05E425E-53EC-493F-BC52-2F352AB43C67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "..\Polymorphism\Abstraction.csproj", "{19CA1BF1-468D-49F4-800E-CE8CD71223A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42EEB1F5-4CB2-4BB5-9C52-F8BE8B43E936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EEB1F5-4CB2-4BB5-9C52-F8BE8B43E936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EEB1F5-4CB2-4BB5-9C52-F8BE8B43E936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EEB1F5-4CB2-4BB5-9C52-F8BE8B43E936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D05E425E-53EC-493F-BC52-2F352AB43C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05E425E-53EC-493F-BC52-2F352AB43C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05E425E-53EC-493F-BC52-2F352AB43C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05E425E-53EC-493F-BC52-2F352AB43C67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19CA1BF1-468D-49F4-800E-CE8CD71223A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19CA1BF1-468D-49F4-800E-CE8CD71223A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19CA1BF1-468D-49F4-800E-CE8CD71223A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19CA1BF1-468D-49F4-800E-CE8CD71223A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B13B680B-2945-4888-A6FE-FA41352A3506}
+	EndGlobalSection
+EndGlobal
