@@ -1,0 +1,15 @@
+C:\Users\jay\Documents\C#_Practicals\practical-06\practical-6\bin\Debug\net6.0\practical-6.exe
+C:\Users\jay\Documents\C#_Practicals\practical-06\practical-6\bin\Debug\net6.0\practical-6.deps.json
+C:\Users\jay\Documents\C#_Practicals\practical-06\practical-6\bin\Debug\net6.0\practical-6.runtimeconfig.json
+C:\Users\jay\Documents\C#_Practicals\practical-06\practical-6\bin\Debug\net6.0\practical-6.dll
+C:\Users\jay\Documents\C#_Practicals\practical-06\practical-6\bin\Debug\net6.0\practical-6.pdb
+C:\Users\jay\Documents\C#_Practicals\practical-06\practical-6\obj\Debug\net6.0\practical-6.csproj.AssemblyReference.cache
+C:\Users\jay\Documents\C#_Practicals\practical-06\practical-6\obj\Debug\net6.0\practical-6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jay\Documents\C#_Practicals\practical-06\practical-6\obj\Debug\net6.0\practical-6.AssemblyInfoInputs.cache
+C:\Users\jay\Documents\C#_Practicals\practical-06\practical-6\obj\Debug\net6.0\practical-6.AssemblyInfo.cs
+C:\Users\jay\Documents\C#_Practicals\practical-06\practical-6\obj\Debug\net6.0\practical-6.csproj.CoreCompileInputs.cache
+C:\Users\jay\Documents\C#_Practicals\practical-06\practical-6\obj\Debug\net6.0\practical-6.dll
+C:\Users\jay\Documents\C#_Practicals\practical-06\practical-6\obj\Debug\net6.0\refint\practical-6.dll
+C:\Users\jay\Documents\C#_Practicals\practical-06\practical-6\obj\Debug\net6.0\practical-6.pdb
+C:\Users\jay\Documents\C#_Practicals\practical-06\practical-6\obj\Debug\net6.0\practical-6.genruntimeconfig.cache
+C:\Users\jay\Documents\C#_Practicals\practical-06\practical-6\obj\Debug\net6.0\ref\practical-6.dll
