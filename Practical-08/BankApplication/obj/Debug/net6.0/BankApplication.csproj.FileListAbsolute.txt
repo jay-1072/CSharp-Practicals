@@ -1,0 +1,30 @@
+E:\Simform_Internship\C#\Practical\BankApplication\bin\Debug\net6.0\BankApplication.exe
+E:\Simform_Internship\C#\Practical\BankApplication\bin\Debug\net6.0\BankApplication.deps.json
+E:\Simform_Internship\C#\Practical\BankApplication\bin\Debug\net6.0\BankApplication.runtimeconfig.json
+E:\Simform_Internship\C#\Practical\BankApplication\bin\Debug\net6.0\BankApplication.dll
+E:\Simform_Internship\C#\Practical\BankApplication\bin\Debug\net6.0\BankApplication.pdb
+E:\Simform_Internship\C#\Practical\BankApplication\obj\Debug\net6.0\BankApplication.csproj.AssemblyReference.cache
+E:\Simform_Internship\C#\Practical\BankApplication\obj\Debug\net6.0\BankApplication.GeneratedMSBuildEditorConfig.editorconfig
+E:\Simform_Internship\C#\Practical\BankApplication\obj\Debug\net6.0\BankApplication.AssemblyInfoInputs.cache
+E:\Simform_Internship\C#\Practical\BankApplication\obj\Debug\net6.0\BankApplication.AssemblyInfo.cs
+E:\Simform_Internship\C#\Practical\BankApplication\obj\Debug\net6.0\BankApplication.csproj.CoreCompileInputs.cache
+E:\Simform_Internship\C#\Practical\BankApplication\obj\Debug\net6.0\BankApplication.dll
+E:\Simform_Internship\C#\Practical\BankApplication\obj\Debug\net6.0\refint\BankApplication.dll
+E:\Simform_Internship\C#\Practical\BankApplication\obj\Debug\net6.0\BankApplication.pdb
+E:\Simform_Internship\C#\Practical\BankApplication\obj\Debug\net6.0\BankApplication.genruntimeconfig.cache
+E:\Simform_Internship\C#\Practical\BankApplication\obj\Debug\net6.0\ref\BankApplication.dll
+C:\Users\jay\Downloads\BankApplication (1)\BankApplication\bin\Debug\net6.0\BankApplication.exe
+C:\Users\jay\Downloads\BankApplication (1)\BankApplication\bin\Debug\net6.0\BankApplication.deps.json
+C:\Users\jay\Downloads\BankApplication (1)\BankApplication\bin\Debug\net6.0\BankApplication.runtimeconfig.json
+C:\Users\jay\Downloads\BankApplication (1)\BankApplication\bin\Debug\net6.0\BankApplication.dll
+C:\Users\jay\Downloads\BankApplication (1)\BankApplication\bin\Debug\net6.0\BankApplication.pdb
+C:\Users\jay\Downloads\BankApplication (1)\BankApplication\obj\Debug\net6.0\BankApplication.csproj.AssemblyReference.cache
+C:\Users\jay\Downloads\BankApplication (1)\BankApplication\obj\Debug\net6.0\BankApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jay\Downloads\BankApplication (1)\BankApplication\obj\Debug\net6.0\BankApplication.AssemblyInfoInputs.cache
+C:\Users\jay\Downloads\BankApplication (1)\BankApplication\obj\Debug\net6.0\BankApplication.AssemblyInfo.cs
+C:\Users\jay\Downloads\BankApplication (1)\BankApplication\obj\Debug\net6.0\BankApplication.csproj.CoreCompileInputs.cache
+C:\Users\jay\Downloads\BankApplication (1)\BankApplication\obj\Debug\net6.0\BankApplication.dll
+C:\Users\jay\Downloads\BankApplication (1)\BankApplication\obj\Debug\net6.0\refint\BankApplication.dll
+C:\Users\jay\Downloads\BankApplication (1)\BankApplication\obj\Debug\net6.0\BankApplication.pdb
+C:\Users\jay\Downloads\BankApplication (1)\BankApplication\obj\Debug\net6.0\BankApplication.genruntimeconfig.cache
+C:\Users\jay\Downloads\BankApplication (1)\BankApplication\obj\Debug\net6.0\ref\BankApplication.dll
