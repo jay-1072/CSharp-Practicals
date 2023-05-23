@@ -56,11 +56,12 @@ public class AddAccountDAL
             Console.Write("Enter initial balance : ");
             IsValidAmount = true;
             Validation.ValidateAmount(ref initialBalance, ref IsValidAmount);
-            if(IsValidAmount && decimal.Parse(initialBalance)<1000)
+            
+            if(IsValidAmount && decimal.Parse(initialBalance) < 0 )
             {
-                Console.WriteLine("\nInitial balance must be equal or greater than 1000\n");
+                Console.WriteLine("\nInitial balance must be positive\n");
                 IsValidAmount = false;
-            }
+            }            
         }
         while (!IsValidAmount);
     }
@@ -74,6 +75,12 @@ public class AddAccountDAL
             Console.Write("Enter credit limit : ");
             IsValidCreditLimit = true;
             Validation.ValidateAmount(ref creditLimit, ref IsValidCreditLimit);
+
+            if (IsValidCreditLimit && decimal.Parse(creditLimit) <= 0)
+            {
+                Console.WriteLine("\ncredit limit must be positive and greater than zero\n");
+                IsValidCreditLimit = false;
+            }
         }
         while(!IsValidCreditLimit);
     }        

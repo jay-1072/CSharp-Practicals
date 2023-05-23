@@ -73,7 +73,7 @@ public abstract class BankAccount:IBankAccount
             }
             Transaction? overdraftTransaction = CheckWithdrawalLimit(Balance - amount < _minimumBalance, amount);
 
-            if (this.GetType().Name.Equals("LineOfCreditAccount"))
+            if (this.GetType().Name.Equals("CreditAccount"))
             {
                 Transaction? withdrawal = new Transaction(-amount, date, note);
                 allTransactions.Add(withdrawal);
