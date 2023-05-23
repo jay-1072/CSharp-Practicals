@@ -5,7 +5,7 @@ namespace polymorphism
 {
     class Bird
     {
-        public void Voice()
+        public virtual void Voice()
         {
             Console.WriteLine("\nTurr Turr");
         }
@@ -13,7 +13,7 @@ namespace polymorphism
 
     class Duck : Bird
     {
-        public void Voice()
+        public override void Voice()
         {
             Console.WriteLine("\nQuack Quack");
         }
@@ -25,9 +25,9 @@ class Program
     public static void Main(string[] args)
     {
         Bird myBird = new Bird();
-        myBird.Voice();
+        Duck myDuck = new Bird();
 
-        myBird = new Duck();
         myBird.Voice();
+        myDuck.Voice();
     }
 }

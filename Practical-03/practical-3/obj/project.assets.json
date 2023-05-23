@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jay\\Documents\\C#_Practicals\\Practical-03\\practical-3\\practical-3.csproj",
+      "projectUniqueName": "C:\\Users\\jay\\Documents\\All Practicals\\Practical-03\\practical-3\\practical-3.csproj",
       "projectName": "practical-3",
-      "projectPath": "C:\\Users\\jay\\Documents\\C#_Practicals\\Practical-03\\practical-3\\practical-3.csproj",
+      "projectPath": "C:\\Users\\jay\\Documents\\All Practicals\\Practical-03\\practical-3\\practical-3.csproj",
       "packagesPath": "C:\\Users\\jay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jay\\Documents\\C#_Practicals\\Practical-03\\practical-3\\obj\\",
+      "outputPath": "C:\\Users\\jay\\Documents\\All Practicals\\Practical-03\\practical-3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jay\\AppData\\Roaming\\NuGet\\NuGet.Config",

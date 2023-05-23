@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jay\\Documents\\C#_Practicals\\Practical-03\\Polymorphism\\Abstraction.csproj",
+      "projectUniqueName": "C:\\Users\\jay\\Documents\\All Practicals\\Practical-03\\Polymorphism\\Abstraction.csproj",
       "projectName": "Abstraction",
-      "projectPath": "C:\\Users\\jay\\Documents\\C#_Practicals\\Practical-03\\Polymorphism\\Abstraction.csproj",
+      "projectPath": "C:\\Users\\jay\\Documents\\All Practicals\\Practical-03\\Polymorphism\\Abstraction.csproj",
       "packagesPath": "C:\\Users\\jay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jay\\Documents\\C#_Practicals\\Practical-03\\Polymorphism\\obj\\",
+      "outputPath": "C:\\Users\\jay\\Documents\\All Practicals\\Practical-03\\Polymorphism\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jay\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jay\\Documents\\C#_Practicals\\Practical-03\\Abstraction\\Polymorphism.csproj": {}
+    "C:\\Users\\jay\\Documents\\All Practicals\\Practical-03\\Abstraction\\Polymorphism.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jay\\Documents\\C#_Practicals\\Practical-03\\Abstraction\\Polymorphism.csproj": {
+    "C:\\Users\\jay\\Documents\\All Practicals\\Practical-03\\Abstraction\\Polymorphism.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jay\\Documents\\C#_Practicals\\Practical-03\\Abstraction\\Polymorphism.csproj",
+        "projectUniqueName": "C:\\Users\\jay\\Documents\\All Practicals\\Practical-03\\Abstraction\\Polymorphism.csproj",
         "projectName": "Polymorphism",
-        "projectPath": "C:\\Users\\jay\\Documents\\C#_Practicals\\Practical-03\\Abstraction\\Polymorphism.csproj",
+        "projectPath": "C:\\Users\\jay\\Documents\\All Practicals\\Practical-03\\Abstraction\\Polymorphism.csproj",
         "packagesPath": "C:\\Users\\jay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jay\\Documents\\C#_Practicals\\Practical-03\\Abstraction\\obj\\",
+        "outputPath": "C:\\Users\\jay\\Documents\\All Practicals\\Practical-03\\Abstraction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jay\\AppData\\Roaming\\NuGet\\NuGet.Config",
