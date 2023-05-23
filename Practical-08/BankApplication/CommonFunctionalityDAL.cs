@@ -53,7 +53,7 @@ public class CommonFunctionalityDAL
         }        
     }   
 
-    public BankAccount? TakeAccountNumber(List<BankAccount> accounts)
+    public BankAccount TakeAccountNumber(List<BankAccount> accounts)
     {
         string accountNumber = string.Empty;
         bool IsValidAccountNumber;

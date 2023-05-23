@@ -10,7 +10,6 @@ public class Program
 {
     public static void Main(String[] args)
     {
-
         List<BankAccount> accounts = new List<BankAccount>();
 
         AddAccountDAL addAccountDAL = new AddAccountDAL();

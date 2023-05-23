@@ -71,16 +71,16 @@ public abstract class BankAccount:IBankAccount
             {
                 throw new Exception("Amount of withdrawal must be positive");
             }
-            Transaction? overdraftTransaction = CheckWithdrawalLimit(Balance - amount < _minimumBalance, amount);
+            Transaction overdraftTransaction = CheckWithdrawalLimit(Balance - amount < _minimumBalance, amount);
 
             if (this.GetType().Name.Equals("CreditAccount"))
             {
-                Transaction? withdrawal = new Transaction(-amount, date, note);
+                Transaction withdrawal = new Transaction(-amount, date, note);
                 allTransactions.Add(withdrawal);
             }
             else if (Balance - amount >= 0)
             {
-                Transaction? withdrawal = new Transaction(-amount, date, note);
+                Transaction withdrawal = new Transaction(-amount, date, note);
                 allTransactions.Add(withdrawal);
             }
 
@@ -95,7 +95,7 @@ public abstract class BankAccount:IBankAccount
         }
     }
 
-    protected virtual Transaction? CheckWithdrawalLimit(bool isOverdrawn, decimal amount)
+    protected virtual Transaction CheckWithdrawalLimit(bool isOverdrawn, decimal amount)
     {
         if (isOverdrawn)
         {

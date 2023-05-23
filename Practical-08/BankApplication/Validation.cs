@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BankApplication;
 
-public class Validation
+public static class Validation
 {
     public static void ValidateAccountNumber(ref string accountNumber, ref bool IsValidAccountNumber)
     {

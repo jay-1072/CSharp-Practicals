@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BankApplication;
 
-public class Transaction
+public sealed class Transaction
 {
     public decimal Amount { get; }
     public DateTime Date { get; }
