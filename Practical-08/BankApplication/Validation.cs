@@ -8,35 +8,42 @@ namespace BankApplication;
 
 public static class Validation
 {
-    public static void ValidateAccountNumber(ref string accountNumber, ref bool IsValidAccountNumber)
+    public static bool ValidateAccountNumber(string accountNumber)
     {
-        accountNumber = Console.ReadLine();
+        bool isValidAccountNumber;
 
         if (string.IsNullOrEmpty(accountNumber))
         {
             Console.WriteLine("\nYou have not entered your account number");
-            IsValidAccountNumber = false;
+            isValidAccountNumber = false;
         }
         else if (accountNumber.Any(c => char.IsLetter(c)))
         {
             Console.WriteLine("\nAccount number only contains digits");
-            IsValidAccountNumber = false;
+            isValidAccountNumber = false;
         }
         else if(accountNumber.Any(c => char.IsWhiteSpace(c)))
         {
             Console.WriteLine("\nWhitespace is not allowed between digits");
-            IsValidAccountNumber = false;
+            isValidAccountNumber = false;
         }
         else if (accountNumber.Length > 10 || accountNumber.Length < 10)
         {
             Console.WriteLine("\nInvalid account number it must contain 10 digits only");
-            IsValidAccountNumber = false;
+            isValidAccountNumber = false;
         }
+        else
+        {
+            isValidAccountNumber = true;
+        }
+
+        return isValidAccountNumber;
     }
 
-    public static void ValidateAmount( ref string amount, ref bool IsValidAmount)
+    public static bool ValidateAmount(string amount)
     {
-        amount = Console.ReadLine();
+        bool IsValidAmount;
+        decimal result;
 
         if (string.IsNullOrEmpty(amount))
         {
@@ -52,48 +59,71 @@ public static class Validation
         {
             Console.WriteLine("\nWhitespace is not allowed between digits");
             IsValidAmount = false;
-        }
-        else if (!decimal.TryParse(amount, out decimal result) || decimal.Parse(amount) > 20000)
+        }        
+        else if(!decimal.TryParse(amount, out result) || decimal.Parse(amount) < 0)
         {
-            Console.WriteLine("\namount limit is upto 20000 only");
+            Console.WriteLine("\namount must be positive\n");
             IsValidAmount = false;
         }
+        else if (!decimal.TryParse(amount, out result) || decimal.Parse(amount) >20000)
+        {
+            Console.WriteLine($"\namount must be between 0 and 20000\n");
+            IsValidAmount = false;
+        }
+        else
+        {
+            IsValidAmount = true;
+        }
+
+        return IsValidAmount;
     }
 
-    public static void ValidateMessage(ref string message, ref bool IsValidMessage)
+    public static bool ValidateMessage(string message)
     {
-        message = Console.ReadLine();
+        bool isValidMessage;
 
         if (string.IsNullOrEmpty(message))
         {
             Console.WriteLine("\nPlease enter message");
-            IsValidMessage = false;
+            isValidMessage = false;
         }
         else if (message.Length > 50)
         {
             Console.WriteLine("\nMessage length can be upto 50 characters");
-            IsValidMessage = false;
+            isValidMessage = false;
         }
+        else
+        {
+            isValidMessage = true;
+        }
+
+        return isValidMessage;
     }
 
-    public static void ValidateName(ref string name, ref bool IsValidName)
+    public static bool ValidateName(string name)
     {
-        name = Console.ReadLine();
+        bool isValidName;
 
         if (string.IsNullOrEmpty(name))
         {
             Console.WriteLine("\nName is required to open an account");
-            IsValidName = false;
+            isValidName = false;
         }
         else if (name.Any(c => char.IsNumber(c)))
         {
             Console.WriteLine("\nName should only contains alphabets");
-            IsValidName = false;
+            isValidName = false;
         }
         else if (name.Length > 15)
         {
             Console.WriteLine("\nName should be upto 15 character long");
-            IsValidName = false;
+            isValidName = false;
         }
+        else
+        {
+            isValidName = true;
+        }
+
+        return isValidName;
     }
 }

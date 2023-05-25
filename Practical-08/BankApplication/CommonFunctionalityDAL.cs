@@ -13,8 +13,8 @@ public class CommonFunctionalityDAL
 
         if (myAccount is not null)
         {
-            GetAmount(out string amount, out bool IsValidAmount);
-            GetMessage(out string message, out bool IsValidMessage);
+            GetAmount(out string amount);
+            GetMessage(out string message);
             myAccount.MakeWithdrawal(decimal.Parse(amount), DateTime.Now, message);
         }
         else
@@ -29,8 +29,8 @@ public class CommonFunctionalityDAL
 
         if (myAccount is not null)
         {
-            GetAmount(out string amount, out bool IsValidAmount);
-            GetMessage(out string message, out bool IsValidMessage);
+            GetAmount(out string amount);
+            GetMessage(out string message);
 
             myAccount.MakeDeposit(decimal.Parse(amount), DateTime.Now, message);
         }
@@ -55,66 +55,55 @@ public class CommonFunctionalityDAL
 
     public BankAccount TakeAccountNumber(List<BankAccount> accounts)
     {
-        string accountNumber = string.Empty;
-        bool IsValidAccountNumber;
+        string accountNumber;
+        bool isValidAccountNumber;
 
         do
         {
-            Console.Write("\nEnter your account number : ");
-            IsValidAccountNumber = true;
-            Validation.ValidateAccountNumber(ref accountNumber, ref IsValidAccountNumber);
+            Console.Write("\nEnter your account number : "); 
+            accountNumber = Console.ReadLine();
+
+            isValidAccountNumber = Validation.ValidateAccountNumber(accountNumber);
         }
-        while(!IsValidAccountNumber);
+        while(!isValidAccountNumber);
 
-        BankAccount myAccount = null;
-
-        if (IsValidAccountNumber)
+        if (isValidAccountNumber)
         {
-            myAccount = FindAccount(accountNumber, accounts);
+            return FindAccount(accountNumber, accounts);
         }
 
-        return myAccount;
+        return default;
     }
 
     public BankAccount FindAccount(string accountNumber, List<BankAccount> accounts)
     {
-
-        BankAccount bankAccount = null;
-
         foreach (var account in accounts)
         {
             if (account.AccountNumber.Equals(accountNumber))
             {
-                bankAccount = account;
-                break;
+                return account;
             }
         }
-        return bankAccount;
+        return default;
     }
 
-    public void GetAmount(out string amount, out bool IsValidAmount)
-    {
-        amount = string.Empty;
-        
+    public void GetAmount(out string amount)
+    {        
         do
         {
             Console.Write("Enter amount : ");
-            IsValidAmount = true;
-            Validation.ValidateAmount(ref amount, ref IsValidAmount);
+            amount = Console.ReadLine();
         }
-        while (!IsValidAmount);
+        while (!Validation.ValidateAmount(amount));
     }
 
-    public void GetMessage(out string message, out bool IsValidMessage)
+    public void GetMessage(out string message)
     {
-        message = string.Empty;
-
         do
         {
             Console.Write("Enter message : ");
-            IsValidMessage = true;
-            Validation.ValidateMessage(ref message, ref IsValidMessage);
+            message = Console.ReadLine();
         }
-        while (!IsValidMessage);
+        while (!Validation.ValidateMessage(message));
     }   
 }

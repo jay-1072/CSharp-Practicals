@@ -22,7 +22,7 @@ public class AddAccountDAL
 
     public void AddCreditAccount(List<BankAccount> accounts)
     {
-        GetName(out string ownerName, out bool IsValidName); ;
+        GetName(out string ownerName, out bool IsValidName);
 
         GetInitialBalance(out string initialBalance, out bool IsValidAmount);
 
@@ -34,51 +34,42 @@ public class AddAccountDAL
         }
     }
 
-    public void GetName(out string ownerName, out bool IsValidName)
+    public static void GetName(out string ownerName, out bool IsValidName)
     {
-        ownerName = string.Empty;
-        
         do
         {
             Console.Write("\nEnter your name : ");
-            IsValidName = true;
-            Validation.ValidateName(ref ownerName, ref IsValidName);
+            ownerName = Console.ReadLine();
+
+            IsValidName = Validation.ValidateName(ownerName);
         }
         while (!IsValidName);
     }
 
-    public void GetInitialBalance(out string initialBalance, out bool IsValidAmount)
-    {
-        initialBalance = string.Empty;
-
+    public static void GetInitialBalance(out string initialBalance, out bool IsValidAmount)
+    {     
         do
         {
             Console.Write("Enter initial balance : ");
-            IsValidAmount = true;
-            Validation.ValidateAmount(ref initialBalance, ref IsValidAmount);
+            initialBalance = Console.ReadLine();
             
-            if(IsValidAmount && decimal.Parse(initialBalance) < 0 )
-            {
-                Console.WriteLine("\nInitial balance must be positive\n");
-                IsValidAmount = false;
-            }            
+            IsValidAmount = Validation.ValidateAmount(initialBalance);    
         }
         while (!IsValidAmount);
     }
 
-    public void GetCreditLimit(out string creditLimit, out bool IsValidCreditLimit)
-    {
-        creditLimit = string.Empty;
-        
+    public static void GetCreditLimit(out string creditLimit, out bool IsValidCreditLimit)
+    {    
         do
         {
             Console.Write("Enter credit limit : ");
-            IsValidCreditLimit = true;
-            Validation.ValidateAmount(ref creditLimit, ref IsValidCreditLimit);
+            creditLimit = Console.ReadLine();
 
-            if (IsValidCreditLimit && decimal.Parse(creditLimit) <= 0)
+            IsValidCreditLimit = Validation.ValidateAmount(creditLimit);
+
+            if (IsValidCreditLimit && decimal.Parse(creditLimit) == 0)
             {
-                Console.WriteLine("\ncredit limit must be positive and greater than zero\n");
+                Console.WriteLine("\namount must be greater than zero\n");
                 IsValidCreditLimit = false;
             }
         }
