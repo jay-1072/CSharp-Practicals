@@ -48,18 +48,13 @@ public abstract class BankAccount:IBankAccount
 
     public void MakeDeposit(decimal amount, DateTime date, string note)
     {
-        try
+        if(amount <= 0)
         {
-            if (amount <= 0)
-            {
-                throw new Exception("Amount of deposit must be positive");
-            }
-            var deposit = new Transaction(amount, date, note);
-            allTransactions.Add(deposit);
+            Console.WriteLine("\nAmount of deposit must be positive and greater than zero");
         }
-        catch (Exception ex)
+        else
         {
-            Console.WriteLine($"\n{ex.Message}");
+            allTransactions.Add(new Transaction(amount, date, note));
         }
     }
 
@@ -95,14 +90,7 @@ public abstract class BankAccount:IBankAccount
         }
     }
 
-    protected virtual Transaction CheckWithdrawalLimit(bool isOverdrawn, decimal amount)
-    {
-        if (isOverdrawn)
-        {
-            Console.WriteLine($"\nNot sufficient funds to withdraw rupees {amount} current balance is rupees {Balance}");
-        }
-        return default;
-    }
+    protected abstract Transaction CheckWithdrawalLimit(bool isOverdrawn, decimal amount);       
 
     public string GetAccountHistory()
     {
